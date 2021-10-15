@@ -16,20 +16,6 @@ bot = telebot.TeleBot(API_TOKEN, parse_mode="Markdown")
 if os.getenv("CONVERT_API") is not None:
     convertapi.api_secret = os.getenv("CONVERT_API")
 
-@bot.message_handler(commands=["ownerinfo"])
-def strt(message):
-    
-    try:
-        bot.send_chat_action(message.chat.id, "typing")
-        strtMsg = f"""
-Instagram : [rizad__x96](https://instagram.com/rizad__x96)
-Telegram  : [rizadッ](https://telegram.me/rizad_x96)
-Website   : [visit](https://rizad.ml)
-"""
-        bot.send_message(
-            message.chat.id, strtMsg, disable_web_page_preview=True, reply_markup=key
-        )
-
 @bot.message_handler(commands=["start"])
 def strt(message):
     
