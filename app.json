@@ -1,0 +1,15 @@
+{
+	"name": "PDF IDE",
+	"description": "Telegram Image to PDF and vice-versa",
+	"repository": "https://github.com/riz4d/PDF-IDE",
+	"env": {
+		"API_TOKEN": {
+			"description": "BOT TOKEN from @botfather"
+		}
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
