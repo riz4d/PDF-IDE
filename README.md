@@ -1,10 +1,20 @@
 # PDF-IDE
 Python Oriented telegram bot to convert images to pdf
 
+## DEMO
+[Click Here](https://telegram.me/PDFIDEbot)
+
 ## How to use ?
 
 1 : Upload the image to the bot<br>
 2 : Click the /Generate button
+
+## REQUIREMENTS
+
+pyTelegramBotAPI<br>
+pillow<br>
+pyMuPdf<br>
+convertapi<br>
 
 
 ## Deployment
