@@ -1,6 +1,12 @@
 # PDF-IDE
 Python Oriented telegram bot to convert images to pdf
 
+## How to use ?
+
+1 : Upload the image to the bot<br>
+2 : Click the /Generate button
+
+
 ## Deployment
 
 [![Deploy On Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)](https://heroku.com/deploy?template=https://github.com/riz4d/PDF-IDE)
